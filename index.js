@@ -36,4 +36,4 @@ const mapDateRangeToDayList = (start, end) =>{
     return list.concat(mapRangeToListInYear(start, end))
 }
 
-export default mapDateRangeToDayList
+module.exports = mapDateRangeToDayList
