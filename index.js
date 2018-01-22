@@ -1,4 +1,4 @@
-
+const dateFormat = 'YYYY-MM-DD'
 const mapRangeToListInMonth = (start, end) => {
     const list = []
     while (start.date() < end.date()) {
